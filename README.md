@@ -1,4 +1,4 @@
-This error is related to an issue with Expo CLI's internal API request handling. Here are several solutions to try:
+<!-- This error is related to an issue with Expo CLI's internal API request handling. Here are several solutions to try:
 
 ## Solution 1: Clear Cache and Retry
 
@@ -103,4 +103,6 @@ npx expo start -c
 
 This error typically appears with Expo 50+ on Windows. Try **Solution 2** first (reinstalling dependencies), and if that doesn't work, use **Solution 6** as a quick workaround while Expo fixes the issue.
 
-The problem is that Expo CLI tries to read the response body twice when checking for native module versions. Using `EXPO_NO_DEPENDENCY_VALIDATION=1` bypasses this check completely.
+The problem is that Expo CLI tries to read the response body twice when checking for native module versions. Using `EXPO_NO_DEPENDENCY_VALIDATION=1` bypasses this check completely. -->
+
+# the basic code of my chat app has been written 
