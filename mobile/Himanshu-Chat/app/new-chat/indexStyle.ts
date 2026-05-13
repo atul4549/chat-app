@@ -1,0 +1,247 @@
+import {  
+    StyleSheet,
+  } from "react-native";
+ const styles = StyleSheet.create({
+    safeArea: {
+      flex: 1,
+      backgroundColor: '#000',
+    },
+    container: {
+      flex: 1,
+      justifyContent: 'flex-end',
+    },
+    modalContainer: {
+      height: '100%',
+      overflow: 'hidden',
+    },
+    headerContainer: {
+      paddingHorizontal: 20,
+      paddingTop: 12,
+      paddingBottom: 12,
+      backgroundColor: '#1C1C1E',
+      borderBottomWidth: 1,
+      borderBottomColor: '#2C2C2E',
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    closeButton: {
+      width: 36,
+      height: 36,
+      borderRadius: 18,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginRight: 8,
+      backgroundColor: '#2C2C2E',
+    },
+    headerTextContainer: {
+      flex: 1,
+    },
+    headerTitle: {
+      color: '#FFFFFF',
+      fontSize: 20,
+      fontWeight: '600',
+    },
+    headerSubtitle: {
+      color: '#8E8E93',
+      fontSize: 12,
+      marginTop: 2,
+    },
+    searchWrapper: {
+      paddingHorizontal: 20,
+      paddingTop: 12,
+      paddingBottom: 8,
+      backgroundColor: '#1C1C1E',
+    },
+    searchBar: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      backgroundColor: '#2C2C2E',
+      borderRadius: 12,
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      gap: 8,
+      borderWidth: 1,
+      borderColor: '#3A3A3C',
+    },
+    searchInput: {
+      flex: 1,
+      color: '#FFFFFF',
+      fontSize: 16,
+      paddingVertical: 4,
+    },
+    dropdownContainer: {
+      flex: 1,
+      backgroundColor: '#1C1C1E',
+      borderTopWidth: 1,
+      borderTopColor: '#2C2C2E',
+    },
+    scrollView: {
+      flex: 1,
+    },
+    loadingContainer: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 40,
+    },
+    loadingText: {
+      color: '#8E8E93',
+      marginTop: 12,
+      fontSize: 14,
+    },
+    userItem: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingHorizontal: 20,
+      paddingVertical: 12,
+      borderBottomWidth: 1,
+      borderBottomColor: '#2C2C2E',
+    },
+    userItemSelected: {
+      backgroundColor: '#2C2C2E',
+    },
+    userAvatar: {
+      position: 'relative',
+      marginRight: 12,
+    },
+    avatarImage: {
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+    },
+    avatarPlaceholder: {
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      backgroundColor: '#2C2C2E',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    avatarText: {
+      fontSize: 20,
+      fontWeight: '600',
+      color: '#f4a261',
+    },
+    onlineDot: {
+      position: 'absolute',
+      bottom: 0,
+      right: 0,
+      width: 12,
+      height: 12,
+      borderRadius: 6,
+      backgroundColor: '#4CAF50',
+      borderWidth: 2,
+      borderColor: '#1C1C1E',
+    },
+    userInfo: {
+      flex: 1,
+    },
+    userName: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: '#FFFFFF',
+      marginBottom: 2,
+    },
+    userEmail: {
+      fontSize: 13,
+      color: '#8E8E93',
+      marginBottom: 2,
+    },
+    userBio: {
+      fontSize: 12,
+      color: '#6B6B70',
+    },
+    recentSection: {
+      paddingTop: 16,
+    },
+    recentHeader: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingHorizontal: 20,
+      marginBottom: 12,
+    },
+    sectionTitle: {
+      fontSize: 13,
+      fontWeight: '600',
+      color: '#8E8E93',
+      textTransform: 'uppercase',
+    },
+    clearText: {
+      fontSize: 13,
+      color: '#f4a261',
+    },
+    recentItem: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingHorizontal: 20,
+      paddingVertical: 12,
+      gap: 12,
+    },
+    recentText: {
+      fontSize: 16,
+      color: '#FFFFFF',
+    },
+    resultsSection: {
+      paddingTop: 8,
+    },
+    noResults: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingVertical: 60,
+      paddingHorizontal: 40,
+    },
+    noResultsTitle: {
+      fontSize: 18,
+      fontWeight: '600',
+      color: '#FFFFFF',
+      marginTop: 16,
+      marginBottom: 8,
+    },
+    noResultsText: {
+      fontSize: 14,
+      color: '#8E8E93',
+      textAlign: 'center',
+    },
+    suggestionsContainer: {
+      paddingTop: 40,
+      alignItems: 'center',
+    },
+    suggestionsHeader: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 8,
+      marginBottom: 12,
+    },
+    suggestionsTitle: {
+      fontSize: 16,
+      fontWeight: '600',
+      color: '#8E8E93',
+    },
+    suggestionsText: {
+      fontSize: 14,
+      color: '#6B6B70',
+      textAlign: 'center',
+    },
+    emptyContainer: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingHorizontal: 40,
+      backgroundColor: '#1C1C1E',
+    },
+    emptyTitle: {
+      fontSize: 20,
+      fontWeight: '600',
+      color: '#FFFFFF',
+      marginTop: 20,
+      marginBottom: 8,
+    },
+    emptySubtitle: {
+      fontSize: 14,
+      color: '#8E8E93',
+      textAlign: 'center',
+      lineHeight: 20,
+    },
+  });
+export default styles
