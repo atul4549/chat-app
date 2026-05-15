@@ -15,7 +15,7 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import {styles} from './style'
+import styles from './style'
 const AdminTalkScreen = () => {
   const router = useRouter();
   const { id, name, adminId, participants } = useLocalSearchParams();

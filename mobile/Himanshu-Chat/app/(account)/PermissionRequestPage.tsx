@@ -13,7 +13,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { check, request, PERMISSIONS, RESULTS } from 'react-native-permissions';
 // import { Platform } from 'react-native';
 // import { useRouter } from 'expo-router';
-import {styles} from './PermissionRequestStyle'; 
+import styles from './PermissionRequestStyle'; 
 const PermissionRequestPage = () => {
   // const navigation = useRouter()
   const [permissions, setPermissions] = useState([

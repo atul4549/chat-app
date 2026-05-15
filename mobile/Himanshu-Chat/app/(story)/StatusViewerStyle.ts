@@ -1,4 +1,11 @@
-export const styles = StyleSheet.create({
+import { StyleSheet, Dimensions } from 'react-native';
+const { 
+  width: SCREEN_WIDTH, 
+  height: SCREEN_HEIGHT
+} = Dimensions.get('window');
+
+
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000',
@@ -299,3 +306,5 @@ export const styles = StyleSheet.create({
     color: '#999',
   },
 });
+
+    export default styles

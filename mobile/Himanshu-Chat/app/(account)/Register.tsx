@@ -6,20 +6,73 @@ import {
   TouchableOpacity,
   KeyboardAvoidingView,
   Platform,
+  Alert,
 } from 'react-native';
 import { useRouter } from "expo-router";
 import styles from './authStyle';
+import { useAuthStore } from "../store/useAuthStore";
 
 const RegisterScreen = () => {
   const router = useRouter();
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [mail, setMail] = useState('');
-  const [uniqueId, setUniqueId] = useState('');
-  const [password, setPassword] = useState('');
-  const [username, setUsername] = useState('');
+  const [formData, setFormData] = useState({
+    username: "",
+    uniqueId: "",
+    mail: "",
+    phoneNumber: "",
+    password: "",
+  });
+  const { signup, isSigningUp } = useAuthStore();
 
-  const handleContinue = () => {
-    router.push('PermissionRequestPage');
+  const updateFormData = (field, value) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }));
+  };
+
+  const validateForm = () => {
+    if (!formData.username.trim()) {
+      Alert.alert("Validation Error", "Username is required");
+      return false;
+    }
+    if (!formData.uniqueId.trim()) {
+      Alert.alert("Validation Error", "Unique ID is required");
+      return false;
+    }
+    if (!formData.password) {
+      Alert.alert("Validation Error", "Password is required");
+      return false;
+    }
+    if (formData.password.length < 6) {
+      Alert.alert("Validation Error", "Password must be at least 6 characters");
+      return false;
+    }
+    // Optional email validation
+    // if (formData.mail && !/\S+@\S+\.\S+/.test(formData.mail)) {
+    //   Alert.alert("Validation Error", "Invalid email format");
+    //   return false;
+    // }
+    // Optional phone validation
+    // if (formData.phoneNumber && formData.phoneNumber.length < 10) {
+    //   Alert.alert("Validation Error", "Phone number must be at least 10 digits");
+    //   return false;
+    // }
+
+    return true;
+  };
+
+  const handleContinue = async () => {
+    const isValid = validateForm();
+    
+    if (isValid) {
+      try {
+        await signup(formData);
+        // Only navigate if signup is successful
+        router.push('/PermissionRequestPage');
+      } catch (error) {
+        Alert.alert("Signup Failed", error.message || "Something went wrong");
+      }
+    }
   };
 
   return (
@@ -35,8 +88,8 @@ const RegisterScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="Username"
-          value={username}
-          onChangeText={setUsername}
+          value={formData.username}
+          onChangeText={(value) => updateFormData('username', value)}
           placeholderTextColor="#999"
         />
       </View>
@@ -45,8 +98,8 @@ const RegisterScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="Unique Id"
-          value={uniqueId}
-          onChangeText={setUniqueId}
+          value={formData.uniqueId}
+          onChangeText={(value) => updateFormData('uniqueId', value)}
           placeholderTextColor="#999"
         />
       </View>
@@ -56,10 +109,10 @@ const RegisterScreen = () => {
           <Text style={styles.countryCodeText}>+91</Text>
         </View>
         <TextInput
-          style={styles.input}
+          style={[styles.input, { flex: 1 }]}
           placeholder="Phone (optional)"
-          value={phoneNumber}
-          onChangeText={setPhoneNumber}
+          value={formData.phoneNumber}
+          onChangeText={(value) => updateFormData('phoneNumber', value)}
           keyboardType="phone-pad"
           placeholderTextColor="#999"
         />
@@ -69,8 +122,8 @@ const RegisterScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="zohomail / gmail (optional)"
-          value={mail}
-          onChangeText={setMail}
+          value={formData.mail}
+          onChangeText={(value) => updateFormData('mail', value)}
           keyboardType="email-address"
           placeholderTextColor="#999"
         />
@@ -80,8 +133,8 @@ const RegisterScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="Password"
-          value={password}
-          onChangeText={setPassword}
+          value={formData.password}
+          onChangeText={(value) => updateFormData('password', value)}
           secureTextEntry
           placeholderTextColor="#999"
         />
@@ -90,13 +143,17 @@ const RegisterScreen = () => {
       <TouchableOpacity
         style={styles.button}
         onPress={handleContinue}
+        disabled={isSigningUp}
       >
-        <Text style={styles.buttonText}>Continue</Text>
+        <Text style={styles.buttonText}>
+          {isSigningUp ? 'Creating Account...' : 'Continue'}
+        </Text>
       </TouchableOpacity>
 
       <TouchableOpacity
-        style={styles.button}
-        onPress={() => router.push('login')}
+        style={[styles.button, styles.secondaryButton]}
+        onPress={() => router.push('/login')}
+        disabled={isSigningUp}
       >
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>

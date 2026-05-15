@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { launchImageLibrary, launchCamera } from 'react-native-image-picker';
-import {styles} from './CreateStatusStyle';
+import styles from './CreateStatusStyle';
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 import { useRouter, useLocalSearchParams } from "expo-router";
 const CreateStatus = () => {

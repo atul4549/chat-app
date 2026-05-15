@@ -13,7 +13,7 @@ import {
   Modal,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {styles} from './StatusViewerStyle';
+import styles from './StatusViewerStyle';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
 import {useRouter, useLocalSearchParams} from 'expo-router'

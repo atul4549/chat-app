@@ -1,0 +1,395 @@
+{"level":"info","message":"Initializing database connections...","service":"api-monitoring","timestamp":"2026-05-14 22:12:16"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":50826,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"errorLabelSet":{},"level":"error","message":"connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":50826,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"service":"api-monitoring","stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1180:11)\n    at NativeConnection.openUri (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1111:11)\n    at async MongoConnection.connect (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/config/mongodb.js:24:13)\n    at async initializeConnection (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:21:9)\n    at async startServer (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:38:9)","timestamp":"2026-05-14 22:12:46"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:13:41"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:14:23"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:14:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:14:44"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:14:52"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:15:01"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:07"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:10"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:46"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:53"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:53"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:53"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:53"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:16:53"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:19"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:24"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:24"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:24"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:24"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:17:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:12"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:15"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:15"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:15"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:15"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:15"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:49"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:53"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:53"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:53"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:53"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:18:53"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:00"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:02"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:02"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:02"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:02"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:19:02"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:09"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:13"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:13"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:14"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:14"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-14 22:20:14"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:18"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:24"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:24"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:24"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:24"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:11:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:37"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:43"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:43"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:43"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:43"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:18:43"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:14"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:16"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:17"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:17"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:17"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:17"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:30"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:32"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:32"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:32"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:32"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:33"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:19:59"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:02"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:02"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:02"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:02"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:03"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:28"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:34"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:37"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:37"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:37"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:37"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:37"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:45"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:48"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:48"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:48"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:48"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:48"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:56"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:57"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:57"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:57"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:57"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:20:57"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:23"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:28"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:28"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:28"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:28"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:21:28"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:32"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:48"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:48"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:48"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:48"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:22:48"}
+{"level":"error","message":"MongoDB Disconnected","service":"Himansshu Chat App","timestamp":"2026-05-15 07:50:33"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:34"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:37"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:37"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:37"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:37"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 07:52:37"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 08:57:05"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.x0sraxy.mongodb.net","level":"error","message":"Failed to connect to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net","service":"Himansshu Chat App","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-05-15 08:57:05"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 08:57:07"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.x0sraxy.mongodb.net","level":"error","message":"Failed to connect to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net","service":"Himansshu Chat App","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-05-15 08:57:07"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:08"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:23"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:23"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:24"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:24"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 08:59:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:04"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:06"}
+{"level":"info","message":"All connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:06"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:06"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:06"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:01:06"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:10"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:04:12"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:05:57"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:06:00"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:12:43"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:13:02"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:17"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:18:19"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:16"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:19:20"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:37"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:20:39"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:00"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:01"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:13"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:15"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:20"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:21:22"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:36"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"Environment: undefined","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:42:40"}
+{"level":"info","message":"SIGINT received, shutting down gracefully...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:46:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:16"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:47:18"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:04"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:12"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:48"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:50"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:50"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:50"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:50"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:50"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:50:51"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:36"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:38"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:38"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:38"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:38"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:38"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:51:39"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:52:57"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:00"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:43"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:46"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:50"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:53:51"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:37"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:54:39"}
+{"level":"info","message":"Initializing database connections...","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:11"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"All database connections established successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"Server started on port 5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"Environment: development","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himansshu Chat App","timestamp":"2026-05-15 09:55:15"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 09:56:17"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 09:56:41"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 09:57:48"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 09:57:57"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 09:58:06"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":13242,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":36248,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":13242,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-w5tnnb-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":13242,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":36248,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":13242,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-w5tnnb-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"service":"Himanshu Chat App","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1180:11)\n    at NativeConnection.openUri (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1111:11)\n    at async MongoConnection.connect (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/config/mongodb.js:24:13)\n    at async initializeConnections (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:36:9)\n    at async startServer (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:137:9)","timestamp":"2026-05-15 09:58:44"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:00:48"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:01:23"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:01:54"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 10:02:15"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:10:27"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 10:10:51"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:11:16"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 10:11:47"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 10:12:45"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 10:13:27"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 11:51:05"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:05:14"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.x0sraxy.mongodb.net","level":"error","message":"Failed to connect to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net","service":"Himanshu Chat App","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.x0sraxy.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-05-15 12:05:29"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:20"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:07:38"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:32"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:10:48"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:23"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:30"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:30"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:31"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:31"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:31"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:11:31"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:28"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:35"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:35"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:35"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:36"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:36"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:36"}
+{"ip":"::1","level":"info","message":"GET /","service":"Himanshu Chat App","timestamp":"2026-05-15 12:14:42","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"error","message":"ResponseFormatter is not defined","service":"Himanshu Chat App","stack":"ReferenceError: ResponseFormatter is not defined\n    at file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:61:9\n    at Layer.handleRequest (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:291:5)\n    at file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:36:5","timestamp":"2026-05-15 12:14:42"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:15:25"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:15:49"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:02"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:07"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:07"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:07"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:07"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:08"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:16:08"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:39"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:43"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:44"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:44"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:44"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:44"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:44"}
+{"ip":"::1","level":"info","message":"GET /api/health","service":"Himanshu Chat App","timestamp":"2026-05-15 12:27:47","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"error","message":"ResponseFormatter is not defined","service":"Himanshu Chat App","stack":"ReferenceError: ResponseFormatter is not defined\n    at file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:87:33\n    at Layer.handleRequest (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:291:5)\n    at file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:36:5\n    at Layer.handleRequest (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\router\\index.js:297:9","timestamp":"2026-05-15 12:27:47"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:37"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:38"}
+{"ip":"::1","level":"info","message":"GET /api/health","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:42","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /healtn","service":"Himanshu Chat App","timestamp":"2026-05-15 12:28:59","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /health","service":"Himanshu Chat App","timestamp":"2026-05-15 12:29:03","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:29:56"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.x0sraxy.mongodb.net","level":"error","message":"Failed to connect to MongoDB: querySrv ETIMEOUT _mongodb._tcp.cluster0.x0sraxy.mongodb.net","service":"Himanshu Chat App","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.x0sraxy.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2026-05-15 12:30:49"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:31:12"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-w5tnnb-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"level":"error","message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-00.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-01.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017":{"$clusterTime":null,"address":"ac-v0tgudb-shard-00-02.x0sraxy.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":56850,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-w5tnnb-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"service":"Himanshu Chat App","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1180:11)\n    at NativeConnection.openUri (C:\\Users\\LENOVO\\OneDrive\\Desktop\\chat-app\\server v1\\node_modules\\mongoose\\lib\\connection.js:1111:11)\n    at async MongoConnection.connect (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/config/mongodb.js:24:13)\n    at async initializeConnections (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/serverFunctions/initializeConnections.js:13:9)\n    at async startServer (file:///C:/Users/LENOVO/OneDrive/Desktop/chat-app/server%20v1/server.js:110:9)","timestamp":"2026-05-15 12:32:24"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:25"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:33:28"}
+{"ip":"::1","level":"info","message":"GET /","service":"Himanshu Chat App","timestamp":"2026-05-15 12:34:12","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:14"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:25"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:28"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:29"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:30"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:30"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:30"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:47"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:48"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:48"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:48"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:48"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:49"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:35:49"}
+{"ip":"::1","level":"info","message":"GET /","service":"Himanshu Chat App","timestamp":"2026-05-15 12:36:46","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:04"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:16"}
+{"ip":"::1","level":"info","message":"GET /","service":"Himanshu Chat App","timestamp":"2026-05-15 12:39:20","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /health","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:05","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"ip":"::1","level":"info","message":"GET /health","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:14","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"}
+{"level":"info","message":"Initializing database connections...","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:40"}
+{"level":"info","message":"MongoDB connected: mongodb+srv://Atul:atulhim4325b@cluster0.x0sraxy.mongodb.net/?appName=Cluster0","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}
+{"level":"info","message":"All database connections established successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}
+{"level":"info","message":"Server initialization completed successfully","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}
+{"level":"info","message":"Server started on port 5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}
+{"level":"info","message":"Environment: development","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}
+{"level":"info","message":"API available at: http://localhost:5000","service":"Himanshu Chat App","timestamp":"2026-05-15 12:40:42"}

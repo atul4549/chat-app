@@ -4,22 +4,31 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  StyleSheet,
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
 import { useRouter } from "expo-router";
 import styles from './authStyle';
+import { useAuthStore } from "../store/useAuthStore";
 
 const LoginScreen = () => {
-  const navigation = useRouter();
   const router = useRouter();
-  const [uniqueId, setUniqueId] = useState('');
-  const [password, setPassword] = useState('');
+  const [formData, setFormData] = useState({
+    uniqueId: "",
+    password: "",
+  });
+  const { login, isLoggingIn } = useAuthStore();
 
   const handleContinue = () => {
     // Handle login logic here
+    login(formData);
+  };
+
+  const updateFormData = (field, value) => {
+    setFormData(prev => ({
+      ...prev,
+      [field]: value
+    }));
   };
 
   return (
@@ -35,8 +44,8 @@ const LoginScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="Unique Id"
-          value={uniqueId}
-          onChangeText={setUniqueId}
+          value={formData.uniqueId}
+          onChangeText={(value) => updateFormData('uniqueId', value)}
           keyboardType="phone-pad"
           placeholderTextColor="#999"
         />
@@ -46,8 +55,8 @@ const LoginScreen = () => {
         <TextInput
           style={styles.input}
           placeholder="Password"
-          value={password}
-          onChangeText={setPassword}
+          value={formData.password}
+          onChangeText={(value) => updateFormData('password', value)}
           secureTextEntry
           placeholderTextColor="#999"
         />
@@ -56,13 +65,16 @@ const LoginScreen = () => {
       <TouchableOpacity
         style={styles.button}
         onPress={handleContinue}
+        disabled={isLoggingIn}
       >
-        <Text style={styles.buttonText}>Continue</Text>
+        <Text style={styles.buttonText}>
+          {isLoggingIn ? 'Logging in...' : 'Continue'}
+        </Text>
       </TouchableOpacity>
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => router.push('Register')}
+        onPress={() => router.push('/Register')}
       >
         <Text style={styles.buttonText}>Create Account</Text>
       </TouchableOpacity>

@@ -15,7 +15,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { launchImageLibrary } from 'react-native-image-picker';
 import useChatStore from '../../store/chatStore';
 import { useRouter, useLocalSearchParams } from "expo-router";
-import {styles} from './GroupInfoStyle';
+import styles from './GroupInfoStyle';
 
 const GroupInfo = () => {
   const navigation = useRouter()

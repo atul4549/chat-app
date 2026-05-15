@@ -20,7 +20,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import useChatStore from '../../store/chatStore';
 import { useRouter } from 'expo-router'
 import BottomNavigationBar from '../../components/BottomNavigationBar'
-import {styles} from './ProfileStyle';
+import styles from './ProfileStyle';
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
 

@@ -15,7 +15,7 @@ import { useRouter, useLocalSearchParams } from "expo-router";
 import BottomNavigationBar from '../../components/BottomNavigationBar'
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
-import {styles} from './StatusListStyle';
+import styles from './StatusListStyle';
 
 const StatusList = () => {
   const navigation = useRouter()
