@@ -34,9 +34,9 @@ export default function Index() {
   // }
 
   // For native, Redirect works fine
-  // if (authUser) {
+  if (authUser) {
     return <Redirect href="./(messaging)/ChatList" />;
-  // } else {
-  //   return <Redirect href="./(account)/login" />;
-  // } 
+  } else {
+    return <Redirect href="./(account)/login" />;
+  }
 }
