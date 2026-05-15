@@ -731,6 +731,7 @@ const ProfilePage = () => {
           style={styles.headerButton}
         >
           login
+          <Icon name="log-in-outline" size={24} color="#000" />
         </TouchableOpacity>
         {/* <TouchableOpacity style={styles.headerButton}>
           <Icon name="ellipsis-horizontal" size={24} color="#000" />

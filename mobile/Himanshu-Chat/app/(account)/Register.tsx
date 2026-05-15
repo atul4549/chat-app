@@ -82,12 +82,11 @@ const RegisterScreen = () => {
       style={styles.container}
     >
       <TouchableOpacity
-                      onPress={() => navigation.back()}
+                      onPress={() => router.back()}
                       // style={styles.headerButton}
                     >
                       <Icon name="arrow-back" size={24} color="#000" />
-                    </TouchableOpacity>
-      <View style={styles.header}>
+                    </TouchableOpacity>      <View style={styles.header}>
         <Text style={styles.title}>Create Account</Text>
       </View>
 

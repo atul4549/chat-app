@@ -242,6 +242,8 @@ const SettingsScreen = () => {
         >
           <View style={styles.profileAvatar}>
             {/* <Text style={styles.avatarText}>{user.name.charAt(0)}</Text> */}
+            {/* <Text style={styles.avatarText}>{user?.name?.charAt(0) || 'U'}</Text> */}
+            <Text style={styles.avatarText}>{'U'}</Text>
           </View>
           <View style={styles.profileInfo}>
             {/* <Text style={styles.profileName}>{user.name}</Text> */}
