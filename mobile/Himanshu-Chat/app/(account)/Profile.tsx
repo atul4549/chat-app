@@ -726,9 +726,15 @@ const ProfilePage = () => {
         <Text style={styles.headerTitle}>
           {profileData.username}
         </Text>
-        <TouchableOpacity style={styles.headerButton}>
-          <Icon name="ellipsis-horizontal" size={24} color="#000" />
+        <TouchableOpacity
+          onPress={() => navigation.push('login')}
+          style={styles.headerButton}
+        >
+          login
         </TouchableOpacity>
+        {/* <TouchableOpacity style={styles.headerButton}>
+          <Icon name="ellipsis-horizontal" size={24} color="#000" />
+        </TouchableOpacity> */}
       </View>
 
       <ScrollView showsVerticalScrollIndicator={false}>

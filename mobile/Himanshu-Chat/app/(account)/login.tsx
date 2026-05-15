@@ -9,9 +9,12 @@ import {
 } from 'react-native';
 import { useRouter } from "expo-router";
 import styles from './authStyle';
-import { useAuthStore } from "../store/useAuthStore";
+import { useAuthStore } from "@/store/useAuthStore";
+
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const LoginScreen = () => {
+  const navigation = useRouter()
   const router = useRouter();
   const [formData, setFormData] = useState({
     uniqueId: "",
@@ -36,6 +39,12 @@ const LoginScreen = () => {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
     >
+      <TouchableOpacity
+                onPress={() => navigation.back()}
+                // style={styles.headerButton}
+              >
+                <Icon name="arrow-back" size={24} color="#000" />
+              </TouchableOpacity>
       <View style={styles.header}>
         <Text style={styles.title}>Login</Text>
       </View>

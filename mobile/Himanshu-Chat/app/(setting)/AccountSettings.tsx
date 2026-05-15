@@ -241,11 +241,13 @@ const SettingsScreen = () => {
         onPress={() => navigation.push("/Profile")}
         >
           <View style={styles.profileAvatar}>
-            <Text style={styles.avatarText}>{user.name.charAt(0)}</Text>
+            {/* <Text style={styles.avatarText}>{user.name.charAt(0)}</Text> */}
           </View>
           <View style={styles.profileInfo}>
-            <Text style={styles.profileName}>{user.name}</Text>
-            <Text style={styles.profileStatus}>{user.status}</Text>
+            {/* <Text style={styles.profileName}>{user.name}</Text> */}
+            {/* <Text style={styles.profileStatus}>{user.status}</Text> */}
+            <Text style={styles.profileName}>{'Shyam...'}</Text>
+            <Text style={styles.profileStatus}>{'ONLINE'}</Text>
           </View>
           <Icon name="chevron-forward-outline" size={20} color="#999" />
         </TouchableOpacity>
@@ -264,7 +266,8 @@ const SettingsScreen = () => {
                   <View style={styles.settingIcon}>
                     <Icon name={item.icon} size={22} color="#075E54" />
                   </View>
-                  <Text style={styles.settingText}>{item.name}</Text>
+                  <Text style={styles.settingText}>{'Support'}</Text>
+                  {/* <Text style={styles.settingText}>{item.name}</Text> */}
                 </View>
                 <Icon name="chevron-forward" size={20} color="#ccc" />
               </TouchableOpacity>
